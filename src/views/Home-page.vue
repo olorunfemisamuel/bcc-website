@@ -7,7 +7,7 @@
       </div>
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1 class="hero-title">A PLACE OF ENCOUNTER, ALIGNMENT, AND FIRE</h1>
+        <h1 class="hero-title">A PLACE OF ENCOUNTER, ALIGNMENT, AND FIRE!</h1>
         <button class="hero-button" onclick="window.location.href='https://forms.gle/fjgA26s9rX79xpTg6'">Register</button>
 
       </div>
