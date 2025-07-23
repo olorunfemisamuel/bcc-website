@@ -118,8 +118,7 @@
         <div class="bottom-section">
           <h3 class="bottom-title">WHAT DO WE DO WITH YOUR GIVINGS?</h3>
           <p class="styled-paragraph">
-          We invite you to partner with us in advancing the Gospel through the Believers Cave Conference (BCC)
-          and the ongoing work of ministry at The Lightfortress Church.
+       Your generous giving helps us reach more souls, host impactful gatherings, and equip believers for the work of the Kingdom.
         </p>
         </div>
       </div>

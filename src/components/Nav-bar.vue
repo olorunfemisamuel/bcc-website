@@ -4,10 +4,23 @@
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-logo">
-          <!-- <img src="https://images.pexels.com/photos/2240665/pexels-photo-2240665.jpeg?auto=compress&cs=tinysrgb&w=50&h=50" alt="Logo" class="logo-img"> -->
+          <img src="@/assets/images/logo-image/logo.png" alt="Logo" class="logo-img">
           <span class="logo-text">BELIEVERS CAVE CONFERENCE</span>
         </div>
-        <ul class="nav-menu">
+
+
+
+
+              <!-- Hamburger Menu Button (Mobile Only) -->
+        <button class="hamburger" @click="isMenuOpen = !isMenuOpen">
+          <span :class="{ open: isMenuOpen }"></span>
+          <span :class="{ open: isMenuOpen }"></span>
+          <span :class="{ open: isMenuOpen }"></span>
+        </button>
+
+
+
+        <ul class="nav-menu" :class="{ 'open': isMenuOpen }">
           <li><router-link to="/" class="nav-link">Home</router-link></li>
           <li><a href="https://forms.gle/fjgA26s9rX79xpTg6" class="nav-link">Register</a></li>
           <li><router-link to="/give-page" class="nav-link">Give</router-link></li>
@@ -25,7 +38,13 @@
 </template>
 
 <script>
-
+export default {
+  data() {
+    return {
+      isMenuOpen: false
+    }
+  }
+}
 </script>
 
 <style>

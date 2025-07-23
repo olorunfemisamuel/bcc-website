@@ -541,17 +541,15 @@ letter-spacing: 1px;
 }
 
 .text {
-  max-width: 50%;
+  max-width: 600px;
   color: #333;
-  font-size: 16px;
-  line-height: 1.5;
-}
-.text {
-  font-family: 'Arial Black', 'Helvetica Bold Condensed', sans-serif;
+  font-size: 1rem;
   font-weight: 900;
-  text-transform: uppercase;
+ 
   letter-spacing: 0.05em;
-  line-height: 1.2;
+  line-height: 1.4;
+  font-family: 'Arial Black', 'Helvetica Bold Condensed', sans-serif;
+  flex: 1;
 }
 
 .children-image {
@@ -603,4 +601,82 @@ letter-spacing: 1px;
     padding: 0 1rem;
   }
 }
+
+/* Make .host-content wrap on smaller screens */
+@media (max-width: 992px) {
+  .host-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .host-text {
+    margin-top: 30px;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  .host-text h2 {
+    font-size: 1.8em;
+  }
+
+  .host-text p {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 600px) {
+  .host-text h2 {
+    font-size: 1.5em;
+  }
+
+  .host-text p {
+    font-size: 0.9em;
+  }
+
+  .host-section {
+    padding: 40px 15px;
+  }
+}
+
+
+/* ---------- Responsive Breakpoints ---------- */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text {
+    max-width: 100%;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .children-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: 0.85rem;
+    padding: 0 10px;
+  }
+}
+
 </style>

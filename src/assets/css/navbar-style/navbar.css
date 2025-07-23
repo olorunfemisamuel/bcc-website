@@ -11,7 +11,7 @@
 
 .nav-container {
   /* max-width: 1200px; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +35,7 @@
   color: white;
   font-weight: 600;
   font-size: 1.2rem;
+  text-align: left; 
 }
 
 .nav-menu {
@@ -52,4 +53,62 @@
 
 .nav-link:hover {
   color: #8B5CF6;
+}
+
+/* Hamburger button */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Optional animation for open state */
+.hamburger span.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger span.open:nth-child(2) {
+  opacity: 0;
+}
+.hamburger span.open:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Mobile menu toggle */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    display: none;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-container {
+    flex-wrap: wrap;
+  }
 }
