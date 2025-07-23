@@ -1,0 +1,93 @@
+.merch-section {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.merch-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.merch-image-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.merch-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(36, 0, 45, 0.6); /* or use a gradient if you want */
+  z-index: 1;
+}
+
+.merch-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(36,0,45,0.7);
+}
+
+.merch-button {
+  background: #8B5CF6;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+  margin-top: 2rem; 
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.15);
+  letter-spacing: 1px;
+}
+.merch-button:hover {
+  background: #7C3AED;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.25);
+}
+
+
+.merch-title {
+  font-family: 'Impact', 'Arial Black', 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.merch-text {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+

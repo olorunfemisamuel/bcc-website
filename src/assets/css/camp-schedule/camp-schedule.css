@@ -1,0 +1,117 @@
+.camp-schedule-section {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.camp-schedule-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.camp-schedule-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.camp-schedule-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(36, 0, 45, 0.7);
+  z-index: 1;
+}
+
+.camp-schedule-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.camp-schedule-title {
+  font-family: 'Impact', 'Arial Black', 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.camp-schedule-text {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+  opacity: 0.95;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.camp-schedule-button {
+  background: white;
+  color: #333;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.camp-schedule-button:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .camp-schedule-title {
+    font-size: 2.5rem;
+  }
+  
+  .camp-schedule-text {
+    font-size: 1rem;
+  }
+  
+  .camp-schedule-content {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .camp-schedule-title {
+    font-size: 2rem;
+  }
+  
+  .camp-schedule-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+}

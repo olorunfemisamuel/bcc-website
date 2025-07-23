@@ -1,0 +1,280 @@
+.partner-section {
+  background: #51007D;
+  min-height: 100vh;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Partner Card Styles */
+.partner-card {
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partner-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.partner-title {
+  font-family: 'Impact', 'Arial Black', 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.partner-text {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.partner-button {
+  background: #6E00AA;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.partner-button:hover {
+  background: #8B5CF6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
+}
+
+/* Coins Animation */
+.partner-coins {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.coin {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: hue-rotate(45deg) saturate(1.5) brightness(1.2);
+  animation: float 3s ease-in-out infinite;
+}
+
+.coin-1 {
+  width: 80px;
+  height: 80px;
+  top: 20px;
+  right: 50px;
+  animation-delay: 0s;
+}
+
+.coin-2 {
+  width: 60px;
+  height: 60px;
+  top: 80px;
+  right: 120px;
+  animation-delay: 0.5s;
+}
+
+.coin-3 {
+  width: 70px;
+  height: 70px;
+  top: 40px;
+  right: 20px;
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(180deg);
+  }
+}
+
+/* Testimony Prompt Styles */
+.testimony-prompt {
+  text-align: center;
+  color: white;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+}
+
+.testimony-prompt-title {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.testimony-prompt-text {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.testimony-button {
+  background: white;
+  color: #8B5CF6;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.testimony-button:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2);
+}
+
+/* Footer Styles */
+.partner-footer {
+  /* background:; */
+  padding: 3rem 0 2rem;
+  color: white;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer-logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.footer-church-name {
+  font-family: 'Impact', 'Arial Black', 'Bebas Neue', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.footer-column-title {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .partner-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .partner-coins {
+    margin-top: 2rem;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .partner-title {
+    font-size: 2rem;
+  }
+  
+  .testimony-prompt-title {
+    font-size: 1.5rem;
+  }
+  
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-card {
+    margin: 0 1rem 2rem;
+    padding: 1.5rem;
+  }
+  
+  .partner-title {
+    font-size: 1.8rem;
+  }
+  
+  .partner-text {
+    font-size: 1rem;
+  }
+  
+  .testimony-prompt {
+    padding: 0 1rem;
+  }
+  
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    padding: 0 1rem;
+  }
+}
