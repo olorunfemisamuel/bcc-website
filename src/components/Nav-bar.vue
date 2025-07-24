@@ -5,7 +5,7 @@
       <div class="nav-container">
         <div class="nav-logo">
           <img src="@/assets/images/logo-image/logo.png" alt="Logo" class="logo-img">
-          <span class="logo-text">BELIEVERS CAVE CONFERENCE</span>
+          <span class="logo-text">BELIEVERS <br/>CAVE CONFERENCE</span>
         </div>
 
 
