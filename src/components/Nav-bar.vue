@@ -21,13 +21,25 @@
 
 
         <ul class="nav-menu" :class="{ 'open': isMenuOpen }">
-          <li><router-link to="/" class="nav-link">Home</router-link></li>
-          <li><a href="https://forms.gle/fjgA26s9rX79xpTg6" class="nav-link">Register</a></li>
-          <li><router-link to="/give-page" class="nav-link">Give</router-link></li>
-          
-          <li><a href="#merch" class="nav-link">Merch</a></li>
-          <li><a href="#camp-schedule" class="nav-link">Camp Schedule</a></li>
-          <li><a href="#contact" class="nav-link">GET your DP</a></li>
+         <li @click="closeMenu">
+  <router-link to="/" class="nav-link">Home</router-link>
+</li>
+<li @click="closeMenu">
+  <a href="https://forms.gle/fjgA26s9rX79xpTg6" class="nav-link">Register</a>
+</li>
+<li @click="closeMenu">
+  <router-link to="/give-page" class="nav-link">Give</router-link>
+</li>
+<li @click="closeMenu">
+  <a href="#merch" class="nav-link">Merch</a>
+</li>
+<li @click="closeMenu">
+  <a href="#camp-schedule" class="nav-link">Camp Schedule</a>
+</li>
+<li @click="closeMenu">
+  <a href="#contact" class="nav-link">GET your DP</a>
+</li>
+
         </ul>
       </div>
     </nav>
@@ -42,9 +54,16 @@ export default {
   data() {
     return {
       isMenuOpen: false
+    };
+  },
+  methods: {
+    closeMenu() {
+      this.isMenuOpen = false;
     }
   }
 }
+
+
 </script>
 
 <style>

@@ -6,46 +6,66 @@
         
         <div class="testimony-grid">
           <div class="testimony-card">
-            <h3 class="testimony-card-title">Direction and Healings...</h3>
+            <h3 class="testimony-card-title">FAITH WALK STIRRED UP</h3>
             <p class="testimony-card-text">
-              For many I will say is that every BCC is like a new year for me. I started from BCC becoming a new person from there. I have been going to BCC for the past 4 years and every year I come back with a new perspective about life and ministry.
+             BCC 2023 was my first, and since that meeting, I have experienced a tangible expression and flow of the supernatural. After BCC 2023, I got about 3 job offers that I had to pick from. Also, my faith walk was stirred up in that meeting.
+
             </p>
             <p class="testimony-card-text">
-              I can't even comprehend of happenings. There was a time I BCC 21 when Pastor prayed for me there was an oil that came out from my head. I have never experienced such before. I can't even explain or they talked BCC, I felt alive and healed.
+              BCC 2024?  My experience was raw power! raw prophecies! raw testimonies! All stirring me to more devotion to God's plan. 
+Glory to God!!!
             </p>
-            <p class="testimony-author">Teni</p>
+            <p class="testimony-author">Lady Nifemi.</p>
           </div>
 
           <div class="testimony-card">
-            <h3 class="testimony-card-title">I felt a jolt...</h3>
+            <h3 class="testimony-card-title">I LEARNED HOW TO STUDY GOD'S WORD.</h3>
             <p class="testimony-card-text">
-              At that year's BCC Pastor Bukun hit some words that people will answer yes and there was an expectant capacity. When he said those that have been struggling with something and I was struggling with something and I was meeting and I was confident because that was the exact thing I was struggling back for 5 yrs.
+             Believers Cave Conference has really impacted my life in great measures.
+
+The first time I attended was in 2020, and it was awesomely amazing. After that encounter, I have never missed the camp meeting since then.
+
             </p>
-            <p class="testimony-author">Ayo</p>
+
+             <p class="testimony-card-text">
+              It was in BCC that I learned how to study God's word and interpret the scriptures. It was in Believers Cave Conference that I began to experience the supernatural and the miraculous, and since then, I began to have a consistent prayer life.
+My expectations are high already, I can't wait to be in BCC'25
+
+             </p>
+            <p class="testimony-author">Bro. David</p>
           </div> 
 
           <div class="testimony-card">
-            <h3 class="testimony-card-title">Learned how to study God's word...</h3>
+            <h3 class="testimony-card-title">I GOT THE JOB!</h3>
             <p class="testimony-card-text">
-              Believers Cave Conference has really impacted my life. The first time I went to BCC 2019 it was amazing and I learnt a lot.
+             During BCC'24, Pastor Ibukun Ali gave words in a particular session that people will receive jobs and there was an application I already applied for before camp meeting, I even sent a follow up mail but there I didn't receive a response. After BCC, I got an acceptance mail, and  I was surprised because that was the least place I expected to be called back for a job.
             </p>
-            <p class="testimony-card-text">
-              I learnt how to study the word of God through the different expositions. It was in Believers Cave Conference that I began to understand the supernatural and the natural. I learnt how to study God's word and how to apply it to my life.
-            </p>
-            <p class="testimony-card-text">I can't wait to be in BCC25</p>
-            <p class="testimony-author">Temi</p>
+            <p class="testimony-author">Bro. Olumide</p>
           </div>
 
           <div class="testimony-card">
-            <h3 class="testimony-card-title">Faith walk started up...</h3>
+            <h3 class="testimony-card-title">DIRECTION AND HEALING</h3>
             <p class="testimony-card-text">
-              BCC 2019 was my first and since that meeting I've experienced a different dimension and there's this fire that I carry. I remember there was a particular message Pastor Bukun preached and it was like he was talking to me.
+              The first thing I will say is that every BCC is like a new year for me. I attend each BCC expecting directions from God. During the camp meeting in 2024, Pastor Ibukun Ali gave me words I am still running with. 
             </p>
             <p class="testimony-card-text">
-              BCC 2019 has power filled atmosphere! Best Testimony!
+             I also have testimonies of healings. There was a time (BCC 23)  when Pastor prayed for my mum who was sick via a phone call, and she got healed. That same year, I also had pains on my knees, and Pastor asked us to lay hands on it, I did, and I was healed. 
             </p>
-            <p class="testimony-author">Witness</p>
+            <p class="testimony-author">Bro. Timilehin</p>
           </div>
+
+          <div class="testimony-card">
+            <h3 class="testimony-card-title">DEFINING MOMENTS</h3>
+            <p class="testimony-card-text">
+              In 2022, during my compulsory service year, I had the privilege of attending BCC.
+At the time, I was awaiting admission and resumption into the Nigerian Law School. During one of the sessions, I received prophetic words concerning my law school journey; about the kind of people I would encounter and how the entire process would unfold. I wrote those words down and held on to them. Now, three years later, I’m a lawyer, and every single word has come to pass!
+            </p>
+            <p class="testimony-card-text">
+             As I step into this year’s meeting, my heart is full of expectation. I’m ready to receive everything God has in store for me.
+            </p>
+            <p class="testimony-author">Lady Desola</p>
+          </div>
+
         </div>
       </div>
     </section> 

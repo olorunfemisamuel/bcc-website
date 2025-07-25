@@ -86,13 +86,13 @@
         <div class="host-text">
           <h2>THE HOST</h2>
           <p>
-            Ibukun Ali is a passionate minister of the Gospel with a divine mandate to reach the unsaved and unchurched through sound preaching and teaching. He serves as the lead pastor of The Lightfortress Church (TLC), a vibrant, Spirit-led assembly committed to the Great Commission.
+            Pastor Ibukun Ali is a solid minister of the Gospel with a mission to reach the unsaved and unchurched through the preaching and teaching of the Gospel. He serves as the lead pastor of The Lightfortress Church (TLC), a vibrant church committed to fulfilling the Great Commission.
           </p>
           <p>
-            At TLC, he leads with clarity and fortify vision, hosting transformative gatherings such as the bimonthly Fortify Retreat, the annual Believers Cave Conference, and the annual Disciples Retreat all focused on kingdom advancement and raising an army unto the Lord.
+          At TLC, he leads by the anointing of the Holyghost, hosting transformative gatherings such as the bimonthly Fortify Retreat, the annual Believers Cave Conference, and the annual Disciples' Retreat all focused on kingdom advancement and raising an army unto the Lord.
           </p>
           <p>
-            Alongside his pastoral work, Ibukun Ali is a sought-after speaker at conferences, gospel campaigns, and city-wide crusades. A dynamic leader, he firmly believes that every believer is called to be saved, to serve, and to partner in God's redemptive plan through the local church.
+           Pastor Ibukun Ali, being a dynamic leader, he firmly believes that every believer is destined to be saved, to serve, and to partner in God’s redemptive plan on the earth through the local church.
           </p>
         </div>
       </div>

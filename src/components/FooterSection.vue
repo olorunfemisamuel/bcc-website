@@ -2,7 +2,7 @@
 <footer class="partner-footer">
     <div class="footer-content">
       <div class="footer-logo">
-        <img src="@/assets/images/partner-image/golden-falling-coins-white 1.png" alt="Church Logo" class="footer-logo-img">
+        <!-- <img src="@/assets/images/partner-image/golden-falling-coins-white 1.png" alt="Church Logo" class="footer-logo-img"> -->
         <div class="footer-logo-text">
           <span class="footer-church-name">BELIEVERS CAVE CONFERENCE</span>
         </div>
