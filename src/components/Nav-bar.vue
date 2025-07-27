@@ -4,8 +4,8 @@
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-logo">
-          <img src="@/assets/images/logo-image/logo.png" alt="Logo" class="logo-img">
-          <span class="logo-text">BELIEVERS <br/>CAVE CONFERENCE</span>
+          <img src="@/assets/images/logo-image/BCC-black-logo 1.png" alt="Logo" class="logo-img">
+          <span class="logo-text">BELIEVERS CAVE <br/> CONFERENCE</span>
         </div>
 
 

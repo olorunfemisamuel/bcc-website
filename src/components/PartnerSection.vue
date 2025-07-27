@@ -11,7 +11,7 @@
           <button class="partner-button" onclick="window.location.href='/give-page'">Give here</button>
         </div>
         <div class="partner-coins">
-          <img src="@/assets/images/partner-image/golden-falling-coins-white 1.png" alt="Golden coins" class="coin coin-1">
+          <img src="@/assets/images/partner-image/gold coins.jpg" alt="Golden coins" class="coin coin-1">
           <!-- <img src="https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=150&h=150" alt="Golden coins" class="coin coin-2">
           <img src="https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=180&h=180" alt="Golden coins" class="coin coin-3"> -->
         </div>

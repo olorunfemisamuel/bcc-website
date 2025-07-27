@@ -13,14 +13,14 @@
           <h4 class="footer-column-title">The Lightfortress Church</h4>
           <ul class="footer-list">
             <li><a href="#host-section" class="footer-link">About Us</a></li>
-            <li><a href="#" class="footer-link">Ministries</a></li>
+            <li><a href="https://www.instagram.com/thelightfortress?utm_source=ig_web_button_share_sheet&igsh=MWk1c3JwY3BpOWkxMQ==" class="footer-link">Ministries</a></li>
           </ul>
         </div>
 
         <div class="footer-column">
-          <h4 class="footer-column-title">Facebook</h4>
+          <h4 class="footer-column-title"><a href= "https://web.facebook.com/believerscaveconference">Facebook</a></h4>
           <ul class="footer-list">
-            <li><a href="#" class="footer-link">Instagram</a></li>
+            <li><a href="https://www.instagram.com/believerscaveconference?utm_source=ig_web_button_share_sheet&igsh=MTd5OTJ6OGhtdWFoaA==" class="footer-link">Instagram</a></li>
           </ul>
         </div>
 
@@ -33,7 +33,7 @@
         </div>
 
         <div class="footer-column">
-          <h4 class="footer-column-title">Home</h4>
+          <h4 class="footer-column-title"><a href= "/">Home</a></h4>
           <ul class="footer-list">
             <li><a href="https://forms.gle/fjgA26s9rX79xpTg6" class="footer-link">Register</a></li>
             <li><a href="give-page" class="footer-link">Give</a></li>
@@ -41,11 +41,10 @@
         </div>
 
         <div class="footer-column">
-          <h4 class="footer-column-title">Calvary International College,</h4>
+          <h4 class="footer-column-title">Calvary International College, Oda Road Akure, Ondo State, Nigeria.</h4>
           <ul class="footer-list">
-            <li><a href="#" class="footer-link">Ondo Oba Road, Akure</a></li>
-            <li><a href="#" class="footer-link">Ondo State, Nigeria</a></li>
-            <li><a href="#" class="footer-link">@gmail.com</a></li>
+           <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=believerscaveconference@gmail.com" target="_blank" class="footer-link">believerscaveconference@gmail.com</a></li>
+            <!-- <li><a href="#" class="footer-link">@gmail.com</a></li>  -->
           </ul>
         </div>
       </div>
