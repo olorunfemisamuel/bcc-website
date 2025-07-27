@@ -15,7 +15,7 @@
               BCC 2024?  My experience was raw power! raw prophecies! raw testimonies! All stirring me to more devotion to God's plan. 
 Glory to God!!!
             </p>
-            <p class="testimony-author">Lady Nifemi.</p>
+            <p class="testimony-author">Bro. Nifemi.</p>
           </div>
 
           <div class="testimony-card">

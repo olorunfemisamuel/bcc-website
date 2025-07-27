@@ -18,8 +18,9 @@
         </div>
 
         <div class="footer-column">
-          <h4 class="footer-column-title"><a href= "https://web.facebook.com/believerscaveconference">Facebook</a></h4>
+          <h4 class="footer-column-title"></h4>
           <ul class="footer-list">
+            <li><a href= "https://web.facebook.com/believerscaveconference" class="footer-link">Facebook</a></li>
             <li><a href="https://www.instagram.com/believerscaveconference?utm_source=ig_web_button_share_sheet&igsh=MTd5OTJ6OGhtdWFoaA==" class="footer-link">Instagram</a></li>
           </ul>
         </div>
@@ -33,7 +34,7 @@
         </div>
 
         <div class="footer-column">
-          <h4 class="footer-column-title"><a href= "/">Home</a></h4>
+          <h4 class="footer-column-title"><a href= "/" class="footer-link">Home</a></h4>
           <ul class="footer-list">
             <li><a href="https://forms.gle/fjgA26s9rX79xpTg6" class="footer-link">Register</a></li>
             <li><a href="give-page" class="footer-link">Give</a></li>
