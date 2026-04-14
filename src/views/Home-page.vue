@@ -7,8 +7,8 @@
       </div>
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1 class="hero-title">A PLACE OF ENCOUNTER, ALIGNMENT, AND FIRE!</h1>
-        <button class="hero-button" onclick="window.location.href='https://forms.gle/fjgA26s9rX79xpTg6'">Register</button>
+        <h1 class="hero-title">A PLACE OF ENCOUNTER, <span class="purple-text">ALIGNMENT, AND FIRE!</span></h1>
+        <button class="hero-button" onclick="window.location.href='https://forms.gle/fjgA26s9rX79xpTg6'">Register here</button>
 
       </div>
     </section>
@@ -49,7 +49,7 @@
         <div class="picture-overlay"></div>
 
         <div class="picture-section-content">
-          <h1 class="picture-section-title">BCC'25 IS HERE!</h1>
+          <h1 class="picture-section-title">BCC'26 IS HERE!</h1>
           <h3 class="picture-section-subtitle">This is the camp meeting you prayed about!</h3>
           <button class="picture-section-button" onclick="window.location.href='https://forms.gle/fjgA26s9rX79xpTg6'">Register here</button>
           <h4 class="picture-section-text">SIGHTS FROM LAST YEAR'S CAMP MEETING</h4>
@@ -84,6 +84,7 @@
           </a>
         </div>
         <div class="host-text">
+          <img src = "@/assets/images/logo-image/logo.png" alt="Logo" class="logo-image">
           <h2>THE HOST</h2>
           <p>
             Pastor Ibukun Ali is a solid minister of the Gospel with a mission to reach the unsaved and unchurched through the preaching and teaching of the Gospel. He serves as the lead pastor of The Lightfortress Church (TLC), a vibrant church committed to fulfilling the Great Commission.
@@ -140,7 +141,7 @@ import PartnerSection from '@/components/PartnerSection.vue';
 /* Hero Section */
 .hero {
   position: relative;
-  height: 100vh;
+  height: 90svh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,7 +201,6 @@ import PartnerSection from '@/components/PartnerSection.vue';
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
@@ -208,6 +208,15 @@ import PartnerSection from '@/components/PartnerSection.vue';
   background: #7C3AED;
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(139, 92, 246, 0.3);
+}
+
+.purple-text{
+  color: #C084FC;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-shadow:
+    0 2px 14px rgba(192, 132, 252, 0.45),
+    0 0 30px rgba(124, 58, 237, 0.25);
 }
 
 /* Content Section */
@@ -232,6 +241,7 @@ import PartnerSection from '@/components/PartnerSection.vue';
   color: #1a1a1a;
   margin-bottom: 1.5rem;
   line-height: 1.2;
+  
 }
 
 .content-description {
@@ -242,7 +252,7 @@ import PartnerSection from '@/components/PartnerSection.vue';
 }
 
 .content-button {
-  background: #8B5CF6;
+  background: #6E00AA;
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -319,24 +329,25 @@ import PartnerSection from '@/components/PartnerSection.vue';
 .picture-section-content {
   position: relative;
   z-index: 3;
-  text-align: left;
   color: white;
   padding: 2rem;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-   align-items: center;
+  justify-content: flex-end;  /* keeps content pinned to bottom */
+  align-items: center;
   text-align: center;
+  padding-bottom: 4rem; /* breathing room at the bottom */
 }
 
 .picture-section-title {
   font-family: 'Impact', 'Arial Black', 'Bebas Neue', sans-serif;
   font-size: 3.5rem;
- font-weight: 550;
-letter-spacing: 1px;
+  font-weight: 550;
+  letter-spacing: 1px;
   line-height: 1.2;
-  margin-top: 20rem;
+  margin-top: 0; /* remove the fixed margin-top */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   color: white;
 }
@@ -354,7 +365,7 @@ letter-spacing: 1px;
   font-family: 'Impact', 'Arial Black', 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-top: 8rem;
+  margin-top: 3rem; /* reduced from 8rem */
   margin-bottom: 0;
   color: #D1D5DB;
   letter-spacing: 1px;
@@ -456,6 +467,12 @@ letter-spacing: 1px;
 }
 
 /* Host Section */
+.logo-image{
+  height: auto;
+  width: 80px;           /* adjust to match your current desktop look */
+}
+
+
 .host-section {
   background: #24002D;
   padding: 50px 20px;
@@ -528,34 +545,32 @@ letter-spacing: 1px;
   justify-content: space-between;
   align-items: center;
   background-color: #f5f5f5;
-  padding: 20px;
-  height: 200px;
+  padding: 40px;
+  gap: 3rem;
 }
 
 .title {
-  font-size: 48px;
+  font-size: 2.8rem;
   font-weight: bold;
   color: #2a2a72;
   text-transform: uppercase;
   margin: 0;
+  flex: 1;
+  line-height: 1.2;
 }
 
 .text {
-  max-width: 600px;
+  flex: 1;
   color: #333;
   font-size: 1rem;
-  font-weight: 900;
- 
-  letter-spacing: 0.05em;
-  line-height: 1.4;
-  font-family: 'Arial Black', 'Helvetica Bold Condensed', sans-serif;
-  flex: 1;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
 }
 
 .children-image {
   display: block;
-  margin-bottom: 0;
-  padding-bottom: 0;
   width: 100%;
   height: auto;
 }
@@ -563,6 +578,15 @@ letter-spacing: 1px;
 .merch-section {
   margin-top: 0;
   padding-top: 0;
+}
+
+/* mobile: center the logo in the host section */
+@media (max-width: 992px){
+  .logo-image{
+    display: block;
+    margin: 0 auto 12px; /* centers it */
+    width: clamp(56px, 16vw, 90px);
+  }
 }
 
 /* Responsive Design */
@@ -644,13 +668,15 @@ letter-spacing: 1px;
 }
 
 
+
 /* ---------- Responsive Breakpoints ---------- */
+
 @media (max-width: 1024px) {
   .container {
     flex-direction: column;
     text-align: center;
-    height: auto;
-    padding: 30px 15px;
+    padding: 30px 20px;
+    gap: 1.5rem;
   }
 
   .title {
@@ -658,13 +684,7 @@ letter-spacing: 1px;
   }
 
   .text {
-    max-width: 100%;
     font-size: 0.95rem;
-    margin-bottom: 20px;
-  }
-
-  .children-image {
-    max-width: 100%;
   }
 }
 
@@ -675,8 +695,56 @@ letter-spacing: 1px;
 
   .text {
     font-size: 0.85rem;
-    padding: 0 10px;
+  }
+
+  /* Gallery grid on mobile */
+  .camp-gallery-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .camp-gallery-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  /* Picture section text on mobile */
+  .picture-section-title {
+    font-size: 2rem;
+  }
+
+  .picture-section-text {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  /* Host section on mobile */
+  .host-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .host-image {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .host-text {
+    text-align: left;
+  }
+
+  .host-text h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .host-text p {
+    font-size: 0.88rem;
   }
 }
-
 </style>
