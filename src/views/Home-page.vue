@@ -57,7 +57,7 @@
       </div>
 
       <!-- Camp Gallery Section -->
-      <div class="camp-gallery">
+      <div class="camp-gallery" v-fade-in>
         <div class="camp-gallery-overlay"></div>
         <div class="camp-gallery-images">
           <img src="@/assets/images/camp-gallery/Frame 2.png" alt="Camp Gallery" class="camp-gallery-image">
@@ -83,7 +83,7 @@
             <img src="@/assets/images/host-image/hostIMG.png" alt="Ibukun Ali - The Host">
           </a>
         </div>
-        <div class="host-text">
+        <div class="host-text" v-fade-in>
           <img src = "@/assets/images/logo-image/logo.png" alt="Logo" class="logo-image">
           <h2>THE HOST</h2>
           <p>

@@ -6,7 +6,7 @@
 
       <div class="testimony-grid">
 
-        <div class="testimony-card">
+        <div class="testimony-card" v-fade-in>
           <img src="@/assets/images/logo-image/logo.png" alt="" class="testimony-card-logo">
           <h3 class="testimony-card-title">FAITH WALK STIRRED UP</h3>
           <p class="testimony-card-text">
@@ -18,7 +18,7 @@
           <p class="testimony-author">Bro. Nifemi.</p>
         </div>
 
-        <div class="testimony-card">
+        <div class="testimony-card" v-fade-in>
           <img src="@/assets/images/logo-image/logo.png" alt="" class="testimony-card-logo">
           <h3 class="testimony-card-title">I LEARNED HOW TO STUDY GOD'S WORD.</h3>
           <p class="testimony-card-text">
@@ -30,7 +30,7 @@
           <p class="testimony-author">Bro. David</p>
         </div>
 
-        <div class="testimony-card">
+        <div class="testimony-card" v-fade-in>
           <img src="@/assets/images/logo-image/logo.png" alt="" class="testimony-card-logo">
           <h3 class="testimony-card-title">I GOT THE JOB!</h3>
           <p class="testimony-card-text">
@@ -39,7 +39,7 @@
           <p class="testimony-author">Bro. Olumide</p>
         </div>
 
-        <div class="testimony-card">
+        <div class="testimony-card" v-fade-in>
           <img src="@/assets/images/logo-image/logo.png" alt="" class="testimony-card-logo">
           <h3 class="testimony-card-title">DIRECTION AND HEALING</h3>
           <p class="testimony-card-text">
@@ -51,7 +51,7 @@
           <p class="testimony-author">Bro. Timilehin</p>
         </div>
 
-        <div class="testimony-card">
+        <div class="testimony-card" v-fade-in>
           <img src="@/assets/images/logo-image/logo.png" alt="" class="testimony-card-logo">
           <h3 class="testimony-card-title">DEFINING MOMENTS</h3>
           <p class="testimony-card-text">
