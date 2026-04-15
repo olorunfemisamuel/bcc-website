@@ -9,11 +9,10 @@
   alt="Logo"
   class="menu-overlay-logo"
 />
-        <div class="nav-logo">
-          <img src="@/assets/images/logo-image/BCC-black-logo 1.png" alt="Logo" class="logo-img">
-          <span class="logo-text">BELIEVERS CAVE <br> CONFERENCE</span>
-        </div>
-
+<router-link to="/" class="nav-logo" @click="closeMenu">
+  <img src="@/assets/images/logo-image/BCC-black-logo 1.png" alt="Logo" class="logo-img">
+  <span class="logo-text">BELIEVERS CAVE <br> CONFERENCE</span>
+</router-link>
 
 
 

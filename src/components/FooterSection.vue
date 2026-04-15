@@ -3,12 +3,12 @@
     <div class="footer-content">
 
       <!-- Logo Column -->
-      <div class="footer-logo">
+      <RouterLink to="/" class="footer-logo">
         <img src="@/assets/images/logo-image/logo.png" alt="Church Logo" class="footer-logo-img">
         <div class="footer-logo-text">
           <span class="footer-church-name">BELIEVERS CAVE<br>CONFERENCE</span>
         </div>
-      </div>
+      </RouterLink>
 
       <!-- Links -->
       <div class="footer-links">
@@ -150,6 +150,9 @@ export default {
   gap: 0.6rem;
   flex: 0 0 auto;
   min-width: 140px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .footer-logo-img {
