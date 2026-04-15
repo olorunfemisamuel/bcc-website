@@ -80,7 +80,7 @@
       <div class="host-content">
         <div class="host-image">
           <a href="https://web.facebook.com/ibukun.ali.33" target="_blank" rel="noopener">
-            <img src="@/assets/images/host-image/PASROR IBK 1.png" alt="Ibukun Ali - The Host">
+            <img src="@/assets/images/host-image/hostIMG.png" alt="Ibukun Ali - The Host">
           </a>
         </div>
         <div class="host-text">
