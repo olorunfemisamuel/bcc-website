@@ -109,6 +109,16 @@
   .nav-menu{
     gap: 1.5rem; /* optional: nicer spacing with big text */
   }
+
+
+  .menu-overlay-logo{
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    width: 44px;
+    height: auto;
+    z-index: 1300; /* above the overlay + hamburger */
+  }
   .nav-menu{
     position: fixed;
     inset: 0;                 /* top:0 right:0 bottom:0 left:0 */

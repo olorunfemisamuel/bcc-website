@@ -3,6 +3,12 @@
     <!-- Navigation -->
     <nav class="navbar">
       <div class="nav-container">
+        <img
+  v-if="isMenuOpen"
+  src="@/assets/images/logo-image/logo.png"
+  alt="Logo"
+  class="menu-overlay-logo"
+/>
         <div class="nav-logo">
           <img src="@/assets/images/logo-image/BCC-black-logo 1.png" alt="Logo" class="logo-img">
           <span class="logo-text">BELIEVERS CAVE <br> CONFERENCE</span>

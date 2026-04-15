@@ -141,7 +141,7 @@ import PartnerSection from '@/components/PartnerSection.vue';
 /* Hero Section */
 .hero {
   position: relative;
-  height: 90svh;
+  height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
