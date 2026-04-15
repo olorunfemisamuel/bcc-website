@@ -3,7 +3,7 @@
    
     <section class="hero">
       <div class="hero-background">
-        <img src="@/assets/homepageimage.jpg" alt="Church gathering" class="hero-image">
+        <img src="@/assets/newHero.png" alt="Church gathering" class="hero-image">
       </div>
       <div class="hero-overlay"></div>
       <div class="hero-content">
@@ -172,6 +172,13 @@ import PartnerSection from '@/components/PartnerSection.vue';
   background: #24002D;
   opacity: 0.2;
   z-index: 2;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.35) 0%,
+    rgba(0,0,0,0.68) 100%
+  );
+  opacity: 1;
 }
 
 .hero-content {
