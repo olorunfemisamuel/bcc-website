@@ -1,5 +1,5 @@
 <template>
- <section class="testimony-section">
+ <section class="testimony-section" v-fade-in>
       <div class="testimony-container">
         <h2 class="testimony-title">BCC TESTIMONIES</h2>
         <p class="testimony-subtitle">See the testimonies</p>

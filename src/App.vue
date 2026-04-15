@@ -41,4 +41,24 @@ body {
   padding: 0;
   /* overflow-x: hidden; */
 }
+
+
+.fade-in-section{
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 600ms ease, transform 600ms ease;
+  will-change: opacity, transform;
+}
+
+.fade-in-section.is-visible{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce){
+  .fade-in-section{
+    transition: none;
+    transform: none;
+  }
+}
 </style>

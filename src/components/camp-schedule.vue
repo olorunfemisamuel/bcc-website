@@ -1,5 +1,5 @@
 <template>
-    <section class="camp-schedule-section" id="camp-schedule">
+    <section class="camp-schedule-section" v-fade-in id="camp-schedule">
       <div class="camp-schedule-background">
         <img src="@/assets/images/camp-schedule-image/camp-schedule-image.png" alt="Camp Schedule" class="camp-schedule-image">
       </div>

@@ -27,14 +27,14 @@
 .logo-img {
   /* width: 40px; */
   height: 40px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   object-fit: cover;
 }
 
 .logo-text {
   color: white;
-  font-weight: 500;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 0.7rem;
   text-align: left; 
 }
 
@@ -91,28 +91,44 @@
 
 /* Mobile menu toggle */
 @media (max-width: 768px) {
-  .hamburger {
+
+  .hamburger{
     display: flex;
+    position: relative; /* makes z-index reliable */
+    z-index: 1200;
   }
 
-  .nav-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.95);
+
+  .nav-link{
+    font-size: 2.25rem;  /* ~36px */
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1.05;
+  }
+  .nav-menu{
+    gap: 1.5rem; /* optional: nicer spacing with big text */
+  }
+  .nav-menu{
+    position: fixed;
+    inset: 0;                 /* top:0 right:0 bottom:0 left:0 */
+    height: 100dvh;           /* better than 100vh on mobile */
+    width: 100%;
+    background: rgba(0,0,0,0.97);
     flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 1rem 0;
+    align-items: flex-start;  /* like your screenshot */
+    justify-content: flex-start;
+    gap: 1.25rem;
+    padding: 6rem 2rem 2rem;  /* space at top for navbar/logo */
     display: none;
+    z-index: 1050;
   }
 
-  .nav-menu.open {
+  .nav-menu.open{
     display: flex;
   }
 
-  .nav-container {
-    flex-wrap: wrap;
-  }
+  /* keep navbar + logo above the overlay */
+  .navbar{ z-index: 1100; }
+  .hamburger{ z-index: 1200; }
 }

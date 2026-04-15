@@ -14,7 +14,7 @@
     </section>
     
     <!-- Content Section -->
-    <section class="content-section">
+    <section class="content-section" v-fade-in>
       <div class="content-container">
         <div class="content-left">
           <h2 class="content-title">CELEBRATING THE GOSPEL, IGNITING PASSION FOR SOULS</h2>
@@ -76,7 +76,7 @@
     </section>
 
     <!-- Host Section -->
-    <section class="host-section" id="host-section">
+    <section class="host-section" v-fade-in id="host-section">
       <div class="host-content">
         <div class="host-image">
           <a href="https://web.facebook.com/ibukun.ali.33" target="_blank" rel="noopener">
@@ -100,7 +100,7 @@
     </section>
 
     <!-- Children Section -->
-    <section class="children-section">
+    <section class="children-section" v-fade-in>
       <div class="container">
         <h1 class="title">THE CHILDREN ARE NOT LEFT OUT</h1>
         <p class="text">At Believers Conference 2025, provision has been made for the spiritual nourishment of children between the ages of 5 and 12. 

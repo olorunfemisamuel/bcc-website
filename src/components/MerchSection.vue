@@ -1,7 +1,7 @@
   <template>
     
 
-  <section class="merch-section" id="merch"> 
+  <section class="merch-section" v-fade-in id="merch"> 
       <div class="merch-background">
         <img src="@/assets/images/merch-image/merch-image.png" alt="Merch Product" class="merch-image-bg">
       </div>
