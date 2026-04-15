@@ -21,21 +21,21 @@
 .nav-logo {
   display: flex;
   margin-left: -20px;
-  gap: 0;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .logo-img {
-  /* width: 40px; */
-  height: 40px;
-  /* border-radius: 50%; */
-  object-fit: cover;
+  height: 1.1em;  /* same “visual height” as the text */
+  width: auto;
 }
 
 .logo-text {
   color: white;
   font-weight: 700;
-  font-size: 0.7rem;
-  text-align: left; 
+  font-size: 0.85rem; /* optional: bump text slightly */
+  line-height: 1.1;
+  /* text-align: left;  */
 }
 
 .nav-menu {
@@ -58,24 +58,25 @@
 }
 
 /* Hamburger button */
-.hamburger {
+/* Hamburger button */
+.hamburger{
   display: none;
   flex-direction: column;
-  gap: 5px;
+  gap: 4px;                 /* tighter */
   background: none;
-  border: none;
+  border: 0;
   cursor: pointer;
-  z-index: 1100;
-  margin-left: auto; /* Pushes it to the far right */
-  /* padding-bottom: 2px; */
+  padding: 1px;             /* gives a nice tap target */
+  border-radius: 10px;
 }
 
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background-color: white;
+.hamburger span{
+  width: 20px;              /* smaller */
+  height: 2px;              /* thinner */
+  background-color: #fff;
+  border-radius: 999px;     /* nicer ends */
   display: block;
-  transition: 0.3s;
+  transition: transform 0.25s ease, opacity 0.2s ease;
 }
 
 /* Optional animation for open state */
@@ -89,8 +90,15 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+.hamburger:hover{
+  background: rgba(255,255,255,0.06);
+}
+
 /* Mobile menu toggle */
 @media (max-width: 768px) {
+
+  .logo-text{ font-size: 0.8rem; }
+  .logo-img{ height: 1.1em; } /* keep same ratio */
 
   .hamburger{
     display: flex;
@@ -115,7 +123,7 @@
     position: fixed;
     top: 16px;
     left: 16px;
-    width: 44px;
+    width: 24px;
     height: auto;
     z-index: 1300; /* above the overlay + hamburger */
   }
@@ -141,4 +149,9 @@
   /* keep navbar + logo above the overlay */
   .navbar{ z-index: 1100; }
   .hamburger{ z-index: 1200; }
+}
+
+.menu-overlay-logo{
+  width: 28px;
+  height: auto;
 }
