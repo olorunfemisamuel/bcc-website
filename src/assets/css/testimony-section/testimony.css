@@ -49,8 +49,21 @@ background-color: #f8f9fa;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
+
+/* logo in the top-right of every card */
+.testimony-card-logo {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  opacity: 0.5;
+  pointer-events: none;
+}
 .testimony-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
@@ -100,6 +113,13 @@ background-color: #f8f9fa;
   
   .testimony-container {
     padding: 0 1rem;
+  }
+  
+  .testimony-card::before{
+    width: 22px;
+    height: 22px;
+    top: 12px;
+    right: 12px;
   }
 }
 

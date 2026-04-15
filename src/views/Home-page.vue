@@ -111,7 +111,7 @@
     </section>
 
     <!-- Merch Section -->
-     <MerchSection />
+     <!-- <MerchSection /> -->
   
 
     <!-- Camp Schedule Section -->
@@ -133,7 +133,7 @@ import '@/assets/css/camp-schedule/camp-schedule.css';
 import '@/assets/css/partner-style/partner.css';
 import TestimonySection from '@/components/Testimony-section.vue';
 import CampSchedule from '@/components/camp-schedule.vue';
-import MerchSection from '@/components/MerchSection.vue'
+// import MerchSection from '@/components/MerchSection.vue'
 import PartnerSection from '@/components/PartnerSection.vue';
 </script>
 
@@ -545,6 +545,10 @@ import PartnerSection from '@/components/PartnerSection.vue';
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  position: relative;
 }
 
 .container {
@@ -552,7 +556,7 @@ import PartnerSection from '@/components/PartnerSection.vue';
   justify-content: space-between;
   align-items: center;
   background-color: #f5f5f5;
-  padding: 40px;
+  padding: 70px 40px;
   gap: 3rem;
 }
 
@@ -580,11 +584,25 @@ import PartnerSection from '@/components/PartnerSection.vue';
   display: block;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
+
+
 
 .merch-section {
   margin-top: 0;
   padding-top: 0;
+}
+
+/* children section responsive */
+@media (max-width: 768px){
+  .children-section{
+    grid-template-columns: 1fr;
+  }
+
+  .children-image{
+    height: auto;
+  }
 }
 
 /* mobile: center the logo in the host section */
