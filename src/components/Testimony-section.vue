@@ -2,7 +2,7 @@
   <section class="testimony-section">
     <div class="testimony-container">
       <h2 class="testimony-title">BCC TESTIMONIES</h2>
-      <p class="testimony-subtitle">See the testimonies</p>
+      <p class="testimony-subtitle">Real testimonies</p>
 
       <div class="testimony-grid">
 

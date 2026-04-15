@@ -103,9 +103,8 @@
     <section class="children-section" v-fade-in>
       <div class="container">
         <h1 class="title">THE CHILDREN ARE NOT LEFT OUT</h1>
-        <p class="text">At Believers Conference 2025, provision has been made for the spiritual nourishment of children between the ages of 5 and 12. 
-        This includes engaging activities, teachings, and interactions with the main conference attendees, all tailored, inspired, and impacted with a safe and 
-        Spirit-led environment.</p>
+        <p class="text">At Believers Cave Conference 2025, provision has been made for the spiritual nourishment of children between the ages of 5 and 12.
+          Dedicated sessions tailored to their age group will run concurrently with the main conference, ensuring they are taught, edified, and imparted with truth in a safe and Spirit-filled environment.</p>
       </div>
       <img src="@/assets/images/children-image/children.png" alt="Children Section Image" class="children-image">
     </section>
@@ -544,7 +543,7 @@ import PartnerSection from '@/components/PartnerSection.vue';
 .children-section {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: stretch;
