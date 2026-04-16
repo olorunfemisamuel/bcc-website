@@ -115,7 +115,7 @@
         </div>
 
         <!-- Bottom Section -->
-        <div class="bottom-section">
+        <div class="bottom-section" v-fade-in>
           <h3 class="bottom-title">WHAT DO WE DO WITH YOUR GIVINGS?</h3>
           <p class="styled-paragraph">
        Your generous giving helps us reach more souls, host impactful gatherings, and equip believers for the work of the Kingdom.
@@ -164,7 +164,7 @@ import PartnerSection from '@/components/PartnerSection.vue'
 
 </script>
 
-<style scoped>
+<style>
 /* Give Page Styles */
 .give-page {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -489,6 +489,41 @@ import PartnerSection from '@/components/PartnerSection.vue'
   
   .banking-card {
     padding: 1.5rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .banking-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Move tabs to the bottom on mobile */
+  .account-tabs {
+    order: 2;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .banking-card {
+    order: 1;
+  }
+
+  .bottom-section {
+    order: 3;
+  }
+
+  .tab-button:first-child,
+  .tab-button:last-child {
+    border-radius: 20px;
+  }
+
+  .tab-button {
+    width: 100%;
+    text-align: center;
   }
 }
 </style>

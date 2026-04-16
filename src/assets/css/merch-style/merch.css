@@ -1,7 +1,7 @@
 .merch-section {
   position: relative;
   text-align: center;
-  color: white;
+  /* color: white; */
   padding: 0;
   min-height: 400px;
   display: flex;
