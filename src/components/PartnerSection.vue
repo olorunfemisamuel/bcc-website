@@ -3,8 +3,8 @@
       <!-- Partner Card -->
       <div class="partner-card">
         <div class="partner-content">
-          <h2 class="partner-title">PARTNER WITH US</h2>
-          <p class="partner-text">
+          <h2 class="partner-title" v-fade-in>PARTNER WITH US</h2>
+          <p class="partner-text" v-fade-in>
             We invite you to partner with us in advancing the Gospel through the Believers Cave 
             Conference. Your partnership is a vital work of ministry at The Lighthouse Church.
           </p>

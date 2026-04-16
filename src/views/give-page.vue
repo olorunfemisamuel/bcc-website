@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section class="give-hero">
       <div class="give-hero-background">
-        <img src="@/assets/images/give-image/IMG_2817 1.png" alt="Woman in colorful clothing" class="give-hero-image">
+        <img src="@/assets/images/give-image/givepageIMG.jpeg" alt="Woman in colorful clothing" class="give-hero-image">
       </div>
       <div class="give-hero-overlay"></div>
       <div class="give-hero-content">
@@ -235,7 +235,7 @@ import PartnerSection from '@/components/PartnerSection.vue'
 }
 
 .purple-text {
-  color: #C084FC;
+  color: #3f0876;
   text-shadow: 3px 3px 6px rgba(192, 132, 252, 0.5);
 }
 
